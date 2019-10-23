@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY index.js .
 
 # Define which port should be exposed on the container
-EXPOSE 8080
+EXPOSE 3001
 
 # The command to run when the container starts
 CMD ["node", "./index.js"]
